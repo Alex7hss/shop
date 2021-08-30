@@ -1,0 +1,62 @@
+#promo{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/Cover.png);
+  background-size:cover;
+  margin-top:10px;
+}
+
+div.jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(80, 79, 79, 0.7);
+  max-width:800px;
+  margin:auto;
+}
+
+@media (max-width:991px) {
+  #promo.jumbotron{
+    padding:20px;
+  }
+}
+
+@media (max-width:991px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#p1{
+  text-align:center;
+  font-size:19px;
+}
+
+.icon{
+  font-size:42px;
+}
+
+div.col-md-4.item{
+  text-align:center;
+}
+
+.icon{
+  margin-top:20px;
+}
+
+.dark-background{
+  background-color:#e8f7fb;
+}
+
+@media (max-width:991px) {
+  div.jumbotron{
+    margin-top:20px;
+  }
+}
+
+.Logo{
+  max-height:42px;
+  margin-top:-12px;
+  margin-right:10px;
+  float:left;
+}
+
